@@ -29,10 +29,10 @@ These codes are tested under Python 3.8.15. The pipeline consists of the followi
 ### 3. Data analysis of single mouse on multiple days
 
 
-  * '**/031_plot_ecog_and_calc_trace.ipynb**': Analyzing the evolution of functional responsiveness in a single rat over days 1-56.
+  * '**/step_03_data_analysis_mouseXX_multiple_days.ipynb**': Analyzing the evolution of functional responsiveness in a single rat over days 1-56.
   <br/>
 
 ### 4. Data analysis of all mice on multiple days
 
-  * '**/mxx_multi_channels_analysis.ipynb**': Characterizing the overall evolution of functional responsiveness in multiple rats over days 1-56.
+  * '**/step_04_data_analysis_multiple_mice_and_days.ipynb**': Characterizing the overall evolution of functional responsiveness in multiple rats over days 1-56.
   <br/>
