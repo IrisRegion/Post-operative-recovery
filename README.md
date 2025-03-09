@@ -1,5 +1,3 @@
-# Post-operative-recovery
-
 # Getting Started With the Pipeline
 
 This repository contains the pipeline codes for the Post-operative-recovery project. This pipeline includes data processing and analysis, organized by **Python** and **MATLAB**.
