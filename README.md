@@ -10,7 +10,7 @@ Please install the dependencies using:
 
 ## Datasets
 
-* The entire dataset, which includes the extracted neuronal traces of 3 mice, will be open-sourced after publication. The transgenic mice consisted of three types:Cx3Cr1-GFP mice (for microglia labeling) , Rasgrf2-2A-DCre/Ai148D mice (for neuronal labeling with GCaMP6f in layers 2/3) and Thy1-YFP mice (for neuronal morphology labeling)
+* The entire dataset, which includes the extracted neuronal traces of 3 mice, will be open-sourced after publication. The transgenic mice consisted of three types: Cx3Cr1-GFP mice (for microglia labeling), Rasgrf2-2A-DCre/Ai148D mice (for neuronal labeling with GCaMP6f in layers 2/3) and Thy1-YFP mice (for neuronal morphology labeling).
 
 ## Usage
 
