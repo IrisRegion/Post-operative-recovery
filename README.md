@@ -14,25 +14,46 @@ Please install the dependencies using:
 
 ## Usage
 
-These codes are tested under Python 3.8.15. The pipeline consists of the following sections:
+These codes are tested under Python 3.8.15 and MATLAB R2019a. The pipeline consists of the following sections:
+  <br/>
 
-### 1. Active neuron selection
+### 1. Functional Analysis
+
+#### 1) Active neuron selection
 
   * '**/step_01_neuron_selection_mouseXX_dayXX.ipynb**': Select the neuronal populations in response to visual stimuli.
-  <br/>
 
-### 2. Data analysis of single mouse on a single day
+#### 2) Data analysis of single mouse on a single day
 
   * '**/step_02_statistics_mouseXX_dayXX.ipynb**': Analyzing the functional responsiveness of a single rat on a given day.
-  <br/>
 
-### 3. Data analysis of single mouse on multiple days
-
+#### 3) Data analysis of single mouse on multiple days
 
   * '**/step_03_data_analysis_mouseXX_multiple_days.ipynb**': Analyzing the evolution of functional responsiveness in a single rat over days 1-56.
-  <br/>
 
-### 4. Data analysis of all mice on multiple days
+#### 4) Data analysis of all mice on multiple days
 
   * '**/step_04_data_analysis_multiple_mice_and_days.ipynb**': Characterizing the overall evolution of functional responsiveness in multiple rats over days 1-56.
+
+### 2. Dynamic Correlation Analysis
+
+'**/step_05_dynamic_correlation_analysis.m**': performs a dynamic correlation analysis between two time-series datasets. The code is organized as the following structure: 
+
+#### 1) Parameter Settings
+  * Defines window widths and the correlation test method.
+  
+#### 2) Read Data from Excel
+  * Reads time data, header names (from C3 and H3), and the raw measurement data for each variable from the Excel file.
+
+#### 3) Interpolate and Smooth Data
+  * Generates a continuous time vector, performs linear interpolation, and applies a moving average for smoothing.
+  
+#### 4) Correlation Analysis
+  * Uses a fixed window for one variable and a sliding window for the other variable to compute the correlation coefficients and p-values.
+  
+#### 5) Visualize Results
+  * Plots the interpolated/smoothed data, the correlation coefficients versus window lag, and the p-values versus window lag (including a reference significance line).
+  
+#### 6) Interpret Results
+  * Prints an interpretation of the correlation analysis results to the command window.
   <br/>
